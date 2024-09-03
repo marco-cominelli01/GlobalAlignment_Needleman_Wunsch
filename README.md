@@ -20,7 +20,7 @@ GlobalAlignment_Needleman_Wunsch.py [-h] (-s SEQUENCE SEQUENCE | -i INPUT INPUT)
 ### Options
   -h, --help           							                    show this help message and exit\
   -s SEQUENCE SEQUENCE, --sequence SEQUENCE SEQUENCE		the two sequences to be aligned\
-  -f FASTA FASTA, --fasta FASTA FASTA					          the two FASTA files containing the sequences to be aligned\                
+  -f FASTA FASTA, --fasta FASTA FASTA					          the two FASTA files containing the sequences to be aligned                
   -t {d,r,p}, --type {d,r,p}							              type of sequences to align: 'd' for DNA sequences, 'r' for RNA sequences and 'p' for protein 
                                                         sequences. Default is 'd'\
   -g GAP, --gap GAP     							                  negative GAP penalty. Default is -4\
