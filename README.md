@@ -18,17 +18,17 @@ GlobalAlignment_Needleman_Wunsch.py [-h] (-s SEQUENCE SEQUENCE | -i INPUT INPUT)
 [-o OUTPUT] [-q] [-c CORES] [-v {1,2}]
 
 ### Options
-  -h, --help           				&nbsp; &nbsp; &nbsp;                  show this help message and exit\
-  -s SEQUENCE SEQUENCE, --sequence SEQUENCE SEQUENCE &nbsp; &nbsp; &nbsp; the two sequences to be aligned\
-  -f FASTA FASTA, --fasta FASTA FASTA					&nbsp; &nbsp; &nbsp;        the two FASTA files containing the sequences to be aligned                
-  -t {d,r,p}, --type {d,r,p}							        &nbsp; &nbsp; &nbsp;      type of sequences to align: 'd' for DNA sequences, 'r' for RNA sequences and 'p' for protein 
+  **-h, --help**           				&nbsp; &nbsp; &nbsp;                  show this help message and exit\
+  **-s SEQUENCE SEQUENCE**, --sequence SEQUENCE SEQUENCE &nbsp; &nbsp; &nbsp; the two sequences to be aligned\
+  **-f FASTA FASTA, --fasta FASTA FASTA**					&nbsp; &nbsp; &nbsp;        the two FASTA files containing the sequences to be aligned                
+  **-t {d,r,p}, --type {d,r,p}**						        &nbsp; &nbsp; &nbsp;      type of sequences to align: 'd' for DNA sequences, 'r' for RNA sequences and 'p' for protein 
                                                         sequences. Default is 'd'\
-  -g GAP, --gap GAP     							         &nbsp; &nbsp; &nbsp;         negative GAP penalty. Default is -4\
-  -mm MISMATCH, --mismatch MISMATCH				      &nbsp; &nbsp; &nbsp;        negative MISMATCH penalty. Default is -5\
-  -m MATCH, --match MATCH						         &nbsp; &nbsp; &nbsp;           positive MATCH score. Default is 5\
-  -b BLOSUM, --blosum BLOSUM					    &nbsp; &nbsp; &nbsp;              use the specified BLOSUM matrix for MATCHES/MISMATCHES (compatible only with protein sequences)\
-  -o OUTPUT, --output OUTPUT						&nbsp; &nbsp; &nbsp;                save the alignment(s) in the specified output file\
-  -q, --quiet           						&nbsp; &nbsp; &nbsp;	                  don't display the output\
+  **-g GAP, --gap GAP**     							         &nbsp; &nbsp; &nbsp;         negative GAP penalty. Default is -4\
+  **-mm MISMATCH, --mismatch MISMATCH**				      &nbsp; &nbsp; &nbsp;        negative MISMATCH penalty. Default is -5\
+  **-m MATCH, --match MATCH**						         &nbsp; &nbsp; &nbsp;           positive MATCH score. Default is 5\
+  **-b BLOSUM, --blosum BLOSUM**					    &nbsp; &nbsp; &nbsp;              use the specified BLOSUM matrix for MATCHES/MISMATCHES (compatible only with protein sequences)\
+  **-o OUTPUT, --output OUTPUT**						&nbsp; &nbsp; &nbsp;                save the alignment(s) in the specified output file\
+  **-q, --quiet**           						&nbsp; &nbsp; &nbsp;	                  don't display the output\
   -c CORES, --cores CORES						 &nbsp; &nbsp; &nbsp;                   number of cores to use. Default is 3 (if available)\
   -v {1,2}, --verbose {1,2}					&nbsp; &nbsp; &nbsp;	                  increase verbosity. Default is 1\
   -a, --approximation							  &nbsp; &nbsp; &nbsp;                    don't show all possible alignments but a reduced number of them
