@@ -29,8 +29,8 @@ GlobalAlignment_Needleman_Wunsch.py [-h] (-s SEQUENCE SEQUENCE | -i INPUT INPUT)
   **-b BLOSUM, --blosum BLOSUM**					    &nbsp; &nbsp; &nbsp;              use the specified BLOSUM matrix for MATCHES/MISMATCHES (compatible only with protein sequences)\
   **-o OUTPUT, --output OUTPUT**						&nbsp; &nbsp; &nbsp;                save the alignment(s) in the specified output file\
   **-q, --quiet**           						&nbsp; &nbsp; &nbsp;	                  don't display the output\
-  -c CORES, --cores CORES						 &nbsp; &nbsp; &nbsp;                   number of cores to use. Default is 3 (if available)\
-  -v {1,2}, --verbose {1,2}					&nbsp; &nbsp; &nbsp;	                  increase verbosity. Default is 1\
-  -a, --approximation							  &nbsp; &nbsp; &nbsp;                    don't show all possible alignments but a reduced number of them
+  **-c CORES, --cores CORES**						 &nbsp; &nbsp; &nbsp;                   number of cores to use. Default is 3 (if available)\
+  **-v {1,2}, --verbose {1,2}**					&nbsp; &nbsp; &nbsp;	                  increase verbosity. Default is 1\
+  **-a, --approximation**							  &nbsp; &nbsp; &nbsp;                    don't show all possible alignments but a reduced number of them
 
 For more detailed information, please refer to the PDF document linked above.
